@@ -36,9 +36,9 @@ public class Connecttosql {
 //        System.out.println("Done!");
     }
     
-//    public static Connection getMyConnection() throws SQLException, ClassNotFoundException {
-//        return DataConnection.getConnection();
-//
-//    }
+    public static Connection getMyConnection() throws SQLException, ClassNotFoundException {
+        return DataConnection.getConnection();
+
+    }
 
 }
